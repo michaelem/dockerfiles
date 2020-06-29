@@ -1,4 +1,4 @@
-FROM ruby:alpine
+FROM ruby:2.7.1-alpine
 
 # Install build tools to allow native gem extensions to build:
 RUN apk add --no-cache --update build-base \
