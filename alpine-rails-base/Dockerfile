@@ -10,5 +10,6 @@ RUN apk add --no-cache --update build-base \
     tzdata \
     tar \
     gzip \
-    ca-certificates
+    ca-certificates \
+    gcompat
 RUN npm install -g yarn
